@@ -1,0 +1,61 @@
+{
+    "properties": {
+        "roleName": "ClientReaderRole",
+        "description": "",
+        "assignableScopes": [
+            "/subscriptions/04780ceb-3639-49f1-b987-433237095c07"
+        ],
+        "permissions": [
+            {
+                "actions": [
+                    "*/read",
+					"Microsoft.Resources/deployments/*",
+					"Microsoft.Network/*",
+                    "Microsoft.Compute/virtualMachines/start/action",
+                    "Microsoft.Compute/virtualMachines/powerOff/action",
+                    "Microsoft.Compute/virtualMachines/reapply/action",
+                    "Microsoft.Compute/virtualMachines/redeploy/action",
+                    "Microsoft.Compute/virtualMachines/restart/action",
+                    "Microsoft.Compute/virtualMachines/deallocate/action",
+                    "Microsoft.Compute/virtualMachines/runCommand/action",
+                    "Microsoft.Compute/virtualMachines/performMaintenance/action",
+                    "Microsoft.Compute/virtualMachines/installPatches/action",
+                    "Microsoft.Compute/virtualMachines/assessPatches/action",
+                    "Microsoft.Compute/virtualMachines/cancelPatchInstallation/action",
+                    "Microsoft.Insights/alertRules/*",
+					"Microsoft.Storage/storageAccounts/*",
+					"Microsoft.RecoveryServices/locations/*",
+                    "Microsoft.RecoveryServices/Vaults/backupFabrics/operationResults/*",
+                    "Microsoft.RecoveryServices/Vaults/backupFabrics/protectionContainers/*",
+                    "Microsoft.RecoveryServices/Vaults/backupFabrics/refreshContainers/action",
+                    "Microsoft.RecoveryServices/Vaults/backupJobs/*",
+                    "Microsoft.RecoveryServices/Vaults/backupJobsExport/action",
+                    "Microsoft.RecoveryServices/Vaults/backupOperationResults/*",
+                    "Microsoft.RecoveryServices/Vaults/backupPolicies/*",
+                    "Microsoft.RecoveryServices/Vaults/backupProtectableItems/*",
+                    "Microsoft.RecoveryServices/Vaults/backupProtectedItems/*",
+                    "Microsoft.RecoveryServices/Vaults/backupProtectionContainers/*",
+                    "Microsoft.RecoveryServices/Vaults/backupSecurityPIN/*",
+                    "Microsoft.RecoveryServices/Vaults/certificates/*",
+                    "Microsoft.RecoveryServices/Vaults/extendedInformation/*",
+                    "Microsoft.RecoveryServices/Vaults/monitoringConfigurations/*",
+                    "Microsoft.RecoveryServices/Vaults/registeredIdentities/*",
+                    "Microsoft.RecoveryServices/Vaults/usages/*",
+                    "Microsoft.RecoveryServices/Vaults/backupstorageconfig/*",
+                    "Microsoft.RecoveryServices/Vaults/backupconfig/*",
+                    "Microsoft.RecoveryServices/Vaults/backupValidateOperation/action",
+                    "Microsoft.RecoveryServices/Vaults/write",
+                    "Microsoft.RecoveryServices/Vaults/backupFabrics/backupProtectionIntent/*",
+                    "Microsoft.RecoveryServices/locations/backupStatus/action",
+                    "Microsoft.RecoveryServices/locations/backupPreValidateProtection/action",
+                    "Microsoft.RecoveryServices/locations/backupValidateFeatures/action",
+                    "Microsoft.RecoveryServices/Vaults/monitoringAlerts/write"
+					
+                ],
+                "notActions": [],
+                "dataActions": [],
+                "notDataActions": []
+            }
+        ]
+    }
+}
