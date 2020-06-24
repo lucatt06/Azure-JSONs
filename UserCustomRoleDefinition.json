@@ -9,8 +9,8 @@
             {
                 "actions": [
                     "*/read",
-					"Microsoft.Resources/deployments/*",
-					"Microsoft.Network/*",
+		    "Microsoft.Resources/deployments/*",
+		    "Microsoft.Network/*",
                     "Microsoft.Compute/virtualMachines/start/action",
                     "Microsoft.Compute/virtualMachines/powerOff/action",
                     "Microsoft.Compute/virtualMachines/reapply/action",
@@ -23,8 +23,8 @@
                     "Microsoft.Compute/virtualMachines/assessPatches/action",
                     "Microsoft.Compute/virtualMachines/cancelPatchInstallation/action",
                     "Microsoft.Insights/alertRules/*",
-					"Microsoft.Storage/storageAccounts/*",
-					"Microsoft.RecoveryServices/locations/*",
+		    "Microsoft.Storage/storageAccounts/*",
+		    "Microsoft.RecoveryServices/locations/*",
                     "Microsoft.RecoveryServices/Vaults/backupFabrics/operationResults/*",
                     "Microsoft.RecoveryServices/Vaults/backupFabrics/protectionContainers/*",
                     "Microsoft.RecoveryServices/Vaults/backupFabrics/refreshContainers/action",
